@@ -1,21 +1,15 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - A programme that print sizeof various
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-printf("Size of char: %lu bytes\n", sizeof(char));
-printf("Size of short: %lu bytes\n", sizeof(short));
-printf("Size of int: %lu bytes\n", sizeof(int));
-printf("Size of long: %lu bytes\n", sizeof(long));
-printf("Size of long long: %lu bytes\n", sizeof(long long));
-printf("Size of float: %lu bytes\n", sizeof(float));
-printf("Size of double: %lu bytes\n", sizeof(double));
-printf("Size of long double: %lu bytes\n", sizeof(long double));
-printf("Size of pointer: %lu bytes\n", sizeof(void *));
-
-return (0);
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
+	printf("Size of an int: %d byte(s)\n", sizeof(int));
+	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %d byte(s)\n", sizeof(float));
+	return (0);
 }
